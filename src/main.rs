@@ -16,7 +16,7 @@ fn main() {
     f1 /= &f2;
     println!("f1={:?}", f1);
 
-    let f5 = &f1+&f2;
+    let mut f5 = &f1+&f2;
     let f6 = &f1*&f2;
 
     let f9 = &f1-&f2;
@@ -28,7 +28,7 @@ fn main() {
     println!("f9={:?}", f9);
     println!("f10={:?}", f10);
 
-/*
+
     f1 += f2;
     println!("f1={:?}", f1);
     f1 -= f2;
@@ -49,7 +49,12 @@ fn main() {
 
     println!("f7={:?}", f7);
     println!("f8={:?}", f8);
-*/
+
+
+    f5.complement();
+    println!("f5={:?}", f5);
+    f5.invert();
+    println!("f5={:?}", f5);
 
     let t = Field::<f64>::one() == Field::<f64>::one();
     let f = Field::<f64>::one() == Field::<f64>::zero();
