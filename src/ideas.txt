@@ -1,0 +1,11 @@
+
+Stuff to try:
+=============
+
+Get Field working with generic types
+    can we parametrize it to use R, C, R_n, C_n, G_n?
+Use cargo test for testing?
+Relations between Field, Vector (space), Multivector, and Matrix?
+Can we make it compatible with other Rust numerics?
+Function Spaces?
+Representations?

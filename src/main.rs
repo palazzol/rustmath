@@ -83,10 +83,4 @@ fn main() {
     println!("leff={:?}", leff);
 }
 
-// Get Field working with generic types - d64(R) impl and d64,d64(C)  for now
-// Get Vector working with Fields
-// Get Matrix working with Fields
-// How would sparse matrix work?
-// Multivector as field? vector?
-// Move on to classes of Functions and their Representations
 
